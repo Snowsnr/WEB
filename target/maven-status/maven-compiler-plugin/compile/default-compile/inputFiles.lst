@@ -1,0 +1,13 @@
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/MiniInventario4Bm2Application.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/core/entidades/Categoria.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/core/entidades/Producto.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/controller/CategoriaController.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/repository/CategoriaDAO.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/service/CategoriaService.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/service/impl/CategoriaServiceImpl.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/mail/service/EmailService.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/mail/service/impl/EmailServiceImpl.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/producto/controller/ProductoController.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/producto/repository/ProductoRepository.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/producto/service/ProductoService.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/producto/service/impl/ProductoServiceImpl.java

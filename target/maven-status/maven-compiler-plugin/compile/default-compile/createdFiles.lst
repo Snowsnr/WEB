@@ -1,0 +1,13 @@
+com/ipn/mx/miniinventario4bm2/features/mail/service/EmailService.class
+com/ipn/mx/miniinventario4bm2/features/categoria/repository/CategoriaDAO.class
+com/ipn/mx/miniinventario4bm2/features/mail/service/impl/EmailServiceImpl.class
+com/ipn/mx/miniinventario4bm2/features/categoria/controller/CategoriaController.class
+com/ipn/mx/miniinventario4bm2/features/categoria/service/CategoriaService.class
+com/ipn/mx/miniinventario4bm2/features/producto/service/impl/ProductoServiceImpl.class
+com/ipn/mx/miniinventario4bm2/features/producto/service/ProductoService.class
+com/ipn/mx/miniinventario4bm2/core/entidades/Categoria.class
+com/ipn/mx/miniinventario4bm2/core/entidades/Producto.class
+com/ipn/mx/miniinventario4bm2/features/producto/repository/ProductoRepository.class
+com/ipn/mx/miniinventario4bm2/MiniInventario4Bm2Application.class
+com/ipn/mx/miniinventario4bm2/features/categoria/service/impl/CategoriaServiceImpl.class
+com/ipn/mx/miniinventario4bm2/features/producto/controller/ProductoController.class

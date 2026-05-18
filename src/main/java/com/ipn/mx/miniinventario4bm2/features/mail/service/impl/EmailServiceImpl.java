@@ -16,7 +16,7 @@ public class EmailServiceImpl implements EmailService{
     @Autowired
     private JavaMailSender mailSender;
 
-    @Value("classpath:static/img/triplet.jpeg")
+    @Value("classpath:static/gif/triplet.gif")
     Resource resourceFile;
     @Override
     public void enviarCorreoEelectronico(String to, String subject, String text) {

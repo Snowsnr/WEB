@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public class RespuestaDTO {
-    private  String menssaje;
+    private String menssaje;
 }

@@ -1,6 +1,12 @@
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/MiniInventario4Bm2Application.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/core/entidades/Archivo.java
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/core/entidades/Categoria.java
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/core/entidades/Producto.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/archivo/controller/ArchivoController.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/archivo/dto/RespuestaDTO.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/archivo/repository/ArchivoRepository.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/archivo/service/ArchivoService.java
+/Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/archivo/service/impl/ArchivoServiceImpl.java
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/controller/CategoriaController.java
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/repository/CategoriaDAO.java
 /Users/snowsnr/IdeaProjects/MiniInventario4BM2/src/main/java/com/ipn/mx/miniinventario4bm2/features/categoria/service/CategoriaService.java

@@ -31,6 +31,10 @@ public class ProductoServiceImpl implements ProductoService {
     @Override
     @Transactional
     public Producto save(Producto producto) {
+        if(producto.getIdProducto() <= 0){
+            producto.setIdProducto(null);
+        }
+
         return productoRepository.save(producto);
     }
 

@@ -30,6 +30,10 @@ public class CategoriaServiceImpl implements CategoriaService {
     @Transactional
     @Override
     public Categoria save(Categoria categoria) {
+        if(categoria.getIdCategoria() <= 0){
+            categoria.setIdCategoria(null);
+        }
+
         return categoriaRepositorty.save(categoria);
     }
 

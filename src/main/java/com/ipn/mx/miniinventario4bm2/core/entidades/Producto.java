@@ -3,13 +3,13 @@ package com.ipn.mx.miniinventario4bm2.core.entidades;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter; import lombok.Setter; import lombok.ToString;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 
-@Data
+@Getter @Setter @ToString(exclude = "idCategoria")
 @NoArgsConstructor
 @Entity
 @Table(name = "Producto")
@@ -36,9 +36,9 @@ public class Producto implements Serializable {
     @Column(name = "create_At", nullable = true)
     private LocalDate createAt;
 
-    @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "idCategoria")
     private Categoria idCategoria;
 
+    @Override public boolean equals(Object o) { if (this == o) return true; if (!(o instanceof Producto)) return false; Producto other = (Producto) o; return idProducto != null && idProducto.equals(other.idProducto); } @Override public int hashCode() { return getClass().hashCode(); }
 }

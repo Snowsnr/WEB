@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/productos")
 public class ProductoController {
@@ -21,9 +22,6 @@ public class ProductoController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<Producto> findAll() {
-        emailService.enviarCorreoEelectronico("diego260506@icloud.com",
-                "Hola",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla porro atque minima. Nesciunt repellendus culpa deserunt, eveniet ab fugit dolor quae iure expedita, necessitatibus officiis iusto a neque! Corrupti, sint!");
         return productoService.findAll();
     }
 
